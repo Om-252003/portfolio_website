@@ -109,8 +109,8 @@ const Contact = () => {
             </a> */}
             <h1 className="text-3xl font-bold">Email</h1>
             <a
-              href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+              href="mailto:omsaialladwar@gmail.com"
+              className="mb-12 mt-4 font-semibold text-xl text-blue-700 block"
             >
               omsaialladwar@gmail.com
             </a>
@@ -119,7 +119,7 @@ const Contact = () => {
               href="hello"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
-              Jhilmil Colony, Delhi
+              Pune, 
               <br />
               India
             </a>

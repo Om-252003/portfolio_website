@@ -92,25 +92,18 @@ export const contactLinks = [
 export const serviceData = [
   {
     name: "Web Application Development",
-    desc: "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design user interface design  authoring, including standardised code and proprietary software user experience design and search engine",
+    desc: "I create modern, responsive websites that are both visually appealing and user-friendly. My focus is on clean design, smooth user experience, and well-structured code.",
     img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png",
   },
   {
     name: "Mobile Application Development",
-    desc: `We provide a range of mobile application development services
-    including custom mobile development on Android platforms, building
-    cross-platform apps, designing user experience and integrating
-    novel mobile interfaces such as chat and voice`,
+    desc: `I create mobile apps that not only work well but feel great to use. I focus on clean design and features that make everyday use simple and enjoyable.`,
     img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png",
   },
 
   {
     name: "Backend Development",
-    desc: `Graphic design is a craft where professionals create visual
-    content to communicate messages. By applying visual hierarchy and
-    page layout techniques, designers use typography and pictures to
-    meet users' specific needs and focus on the logic of displaying
-    elements in interactive designs, to optimize the user experience.`,
+    desc: `While the front-end handles what users see, I make sure everything under the hood works flawlessly. I create secure, scalable, and efficient backend systems that power the core of every app.`,
     img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png",
   },
 ];
