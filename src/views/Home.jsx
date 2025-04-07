@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
 import heroBg from "../assets/webdev.svg";
-import Typical from "react-typical";
+import { TypeAnimation } from 'react-type-animation';
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
 
@@ -32,16 +31,19 @@ const Home = () => {
                 Hi, I am Om
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
-                <Typical
-                  steps={[
-                    "Front End Developer",
+                <TypeAnimation
+                  sequence={[
+                    'Front End Developer',
                     1000,
-                    "Full Stack Developer",
+                    'Full Stack Developer', 
                     1000,
-                    "Mobile Developer",
+                    'Mobile Developer',
                     1000,
                   ]}
-                  loop={Infinity}
+                  wrapper="span"
+                  cursor={true}
+                  repeat={Infinity}
+                  style={{ display: 'inline-block' }}
                 />
               </span>
             </h1>
